@@ -70,7 +70,7 @@ def delete_contact():
 
 def main():
     while True:
-        print("\n-----CONTACT MANAGEMENT SYSTEM-----")
+        print("\n-----CONTACT BOOK-----")
         print("1. Add contact")
         print("2. View contact details")
         print("3. Search contact")
@@ -94,5 +94,6 @@ def main():
             break
         else:
             print("Invalid choice!")
+
 
 main()
